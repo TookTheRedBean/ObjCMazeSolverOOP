@@ -13,7 +13,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    NSString *shortestPath = [MSSolver solveMazeFromFile:@"1"];
+    NSString *shortestPath = [MSSolver solveMazeFromFile:@"sample"];
 
     if (!shortestPath) {
         NSLog(@"Unescapeable!");

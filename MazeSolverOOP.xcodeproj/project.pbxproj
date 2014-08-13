@@ -27,6 +27,7 @@
 		5A446F8E199AF8AC00D6B885 /* 4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F88199AF8AC00D6B885 /* 4.txt */; };
 		5A446F8F199AF8AC00D6B885 /* 5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F89199AF8AC00D6B885 /* 5.txt */; };
 		5A446F90199AF8AC00D6B885 /* sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F8A199AF8AC00D6B885 /* sample.txt */; };
+		5A446F93199B04E800D6B885 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F92199B04E800D6B885 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		5A446F88199AF8AC00D6B885 /* 4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4.txt; sourceTree = "<group>"; };
 		5A446F89199AF8AC00D6B885 /* 5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 5.txt; sourceTree = "<group>"; };
 		5A446F8A199AF8AC00D6B885 /* sample.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.txt; sourceTree = "<group>"; };
+		5A446F92199B04E800D6B885 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				5A446F5D199AD01A00D6B885 /* MainMenu.xib */,
 				5A446F60199AD01A00D6B885 /* Images.xcassets */,
 				5A446F4F199AD01900D6B885 /* Supporting Files */,
+				5A446F92199B04E800D6B885 /* README.md */,
 			);
 			path = MazeSolverOOP;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				5A446F8C199AF8AC00D6B885 /* 2.txt in Resources */,
 				5A446F59199AD01900D6B885 /* Credits.rtf in Resources */,
 				5A446F5F199AD01A00D6B885 /* MainMenu.xib in Resources */,
+				5A446F93199B04E800D6B885 /* README.md in Resources */,
 				5A446F8E199AF8AC00D6B885 /* 4.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
