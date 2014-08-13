@@ -11,13 +11,22 @@
 		5A446F53199AD01900D6B885 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F51199AD01900D6B885 /* InfoPlist.strings */; };
 		5A446F55199AD01900D6B885 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A446F54199AD01900D6B885 /* main.m */; };
 		5A446F59199AD01900D6B885 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F57199AD01900D6B885 /* Credits.rtf */; };
-		5A446F5C199AD01900D6B885 /* GRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A446F5B199AD01900D6B885 /* GRAppDelegate.m */; };
+		5A446F5C199AD01900D6B885 /* MSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A446F5B199AD01900D6B885 /* MSAppDelegate.m */; };
 		5A446F5F199AD01A00D6B885 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F5D199AD01A00D6B885 /* MainMenu.xib */; };
 		5A446F61199AD01A00D6B885 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F60199AD01A00D6B885 /* Images.xcassets */; };
 		5A446F68199AD01A00D6B885 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A446F67199AD01A00D6B885 /* XCTest.framework */; };
 		5A446F69199AD01A00D6B885 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A446F48199AD01900D6B885 /* Cocoa.framework */; };
 		5A446F71199AD01A00D6B885 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F6F199AD01A00D6B885 /* InfoPlist.strings */; };
 		5A446F73199AD01A00D6B885 /* MazeSolverOOPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A446F72199AD01A00D6B885 /* MazeSolverOOPTests.m */; };
+		5A446F7E199AD06800D6B885 /* MSPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A446F7D199AD06800D6B885 /* MSPosition.m */; };
+		5A446F81199ADCFD00D6B885 /* MSMaze.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A446F80199ADCFD00D6B885 /* MSMaze.m */; };
+		5A446F84199AEFA300D6B885 /* MSSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A446F83199AEFA300D6B885 /* MSSolver.m */; };
+		5A446F8B199AF8AC00D6B885 /* 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F85199AF8AC00D6B885 /* 1.txt */; };
+		5A446F8C199AF8AC00D6B885 /* 2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F86199AF8AC00D6B885 /* 2.txt */; };
+		5A446F8D199AF8AC00D6B885 /* 3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F87199AF8AC00D6B885 /* 3.txt */; };
+		5A446F8E199AF8AC00D6B885 /* 4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F88199AF8AC00D6B885 /* 4.txt */; };
+		5A446F8F199AF8AC00D6B885 /* 5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F89199AF8AC00D6B885 /* 5.txt */; };
+		5A446F90199AF8AC00D6B885 /* sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A446F8A199AF8AC00D6B885 /* sample.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +50,8 @@
 		5A446F54199AD01900D6B885 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A446F56199AD01900D6B885 /* MazeSolverOOP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MazeSolverOOP-Prefix.pch"; sourceTree = "<group>"; };
 		5A446F58199AD01900D6B885 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5A446F5A199AD01900D6B885 /* GRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRAppDelegate.h; sourceTree = "<group>"; };
-		5A446F5B199AD01900D6B885 /* GRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRAppDelegate.m; sourceTree = "<group>"; };
+		5A446F5A199AD01900D6B885 /* MSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAppDelegate.h; sourceTree = "<group>"; };
+		5A446F5B199AD01900D6B885 /* MSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAppDelegate.m; sourceTree = "<group>"; };
 		5A446F5E199AD01A00D6B885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5A446F60199AD01A00D6B885 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5A446F66199AD01A00D6B885 /* MazeSolverOOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeSolverOOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +59,18 @@
 		5A446F6E199AD01A00D6B885 /* MazeSolverOOPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MazeSolverOOPTests-Info.plist"; sourceTree = "<group>"; };
 		5A446F70199AD01A00D6B885 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A446F72199AD01A00D6B885 /* MazeSolverOOPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MazeSolverOOPTests.m; sourceTree = "<group>"; };
+		5A446F7C199AD06800D6B885 /* MSPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPosition.h; sourceTree = "<group>"; };
+		5A446F7D199AD06800D6B885 /* MSPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPosition.m; sourceTree = "<group>"; };
+		5A446F7F199ADCFD00D6B885 /* MSMaze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMaze.h; sourceTree = "<group>"; };
+		5A446F80199ADCFD00D6B885 /* MSMaze.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMaze.m; sourceTree = "<group>"; };
+		5A446F82199AEFA300D6B885 /* MSSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSolver.h; sourceTree = "<group>"; };
+		5A446F83199AEFA300D6B885 /* MSSolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSolver.m; sourceTree = "<group>"; };
+		5A446F85199AF8AC00D6B885 /* 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.txt; sourceTree = "<group>"; };
+		5A446F86199AF8AC00D6B885 /* 2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.txt; sourceTree = "<group>"; };
+		5A446F87199AF8AC00D6B885 /* 3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3.txt; sourceTree = "<group>"; };
+		5A446F88199AF8AC00D6B885 /* 4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4.txt; sourceTree = "<group>"; };
+		5A446F89199AF8AC00D6B885 /* 5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 5.txt; sourceTree = "<group>"; };
+		5A446F8A199AF8AC00D6B885 /* sample.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +136,15 @@
 		5A446F4E199AD01900D6B885 /* MazeSolverOOP */ = {
 			isa = PBXGroup;
 			children = (
-				5A446F5A199AD01900D6B885 /* GRAppDelegate.h */,
-				5A446F5B199AD01900D6B885 /* GRAppDelegate.m */,
+				5A446F91199AFF0000D6B885 /* Sample Files */,
+				5A446F82199AEFA300D6B885 /* MSSolver.h */,
+				5A446F83199AEFA300D6B885 /* MSSolver.m */,
+				5A446F7F199ADCFD00D6B885 /* MSMaze.h */,
+				5A446F80199ADCFD00D6B885 /* MSMaze.m */,
+				5A446F7C199AD06800D6B885 /* MSPosition.h */,
+				5A446F7D199AD06800D6B885 /* MSPosition.m */,
+				5A446F5A199AD01900D6B885 /* MSAppDelegate.h */,
+				5A446F5B199AD01900D6B885 /* MSAppDelegate.m */,
 				5A446F5D199AD01A00D6B885 /* MainMenu.xib */,
 				5A446F60199AD01A00D6B885 /* Images.xcassets */,
 				5A446F4F199AD01900D6B885 /* Supporting Files */,
@@ -152,6 +180,19 @@
 				5A446F6F199AD01A00D6B885 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A446F91199AFF0000D6B885 /* Sample Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A446F85199AF8AC00D6B885 /* 1.txt */,
+				5A446F86199AF8AC00D6B885 /* 2.txt */,
+				5A446F87199AF8AC00D6B885 /* 3.txt */,
+				5A446F88199AF8AC00D6B885 /* 4.txt */,
+				5A446F89199AF8AC00D6B885 /* 5.txt */,
+				5A446F8A199AF8AC00D6B885 /* sample.txt */,
+			);
+			name = "Sample Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +273,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A446F53199AD01900D6B885 /* InfoPlist.strings in Resources */,
+				5A446F8D199AF8AC00D6B885 /* 3.txt in Resources */,
+				5A446F8B199AF8AC00D6B885 /* 1.txt in Resources */,
+				5A446F8F199AF8AC00D6B885 /* 5.txt in Resources */,
+				5A446F90199AF8AC00D6B885 /* sample.txt in Resources */,
 				5A446F61199AD01A00D6B885 /* Images.xcassets in Resources */,
+				5A446F8C199AF8AC00D6B885 /* 2.txt in Resources */,
 				5A446F59199AD01900D6B885 /* Credits.rtf in Resources */,
 				5A446F5F199AD01A00D6B885 /* MainMenu.xib in Resources */,
+				5A446F8E199AF8AC00D6B885 /* 4.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,8 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A446F84199AEFA300D6B885 /* MSSolver.m in Sources */,
+				5A446F81199ADCFD00D6B885 /* MSMaze.m in Sources */,
 				5A446F55199AD01900D6B885 /* main.m in Sources */,
-				5A446F5C199AD01900D6B885 /* GRAppDelegate.m in Sources */,
+				5A446F7E199AD06800D6B885 /* MSPosition.m in Sources */,
+				5A446F5C199AD01900D6B885 /* MSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

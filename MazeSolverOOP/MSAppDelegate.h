@@ -1,5 +1,5 @@
 //
-//  GRAppDelegate.h
+//  MSAppDelegate.h
 //  MazeSolverOOP
 //
 //  Created by Kenner Miner on 8/12/14.
@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface GRAppDelegate : NSObject <NSApplicationDelegate>
+@interface MSAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 
